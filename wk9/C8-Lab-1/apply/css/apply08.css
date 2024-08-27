@@ -1,0 +1,147 @@
+/*
+Author: Hinali Tejani - C0939251
+Date: 15th July, 2024
+File Name: apply08.css
+*/
+
+/* CSS Reset */
+body,
+main,
+footer,
+table {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+/* Style rule for body */
+body {
+	background-color: #f4f9e1;
+}
+
+/* Style rule for table*/
+table {
+	width: 80%;
+	margin: 0 auto;
+	border: "3px solid #71881b";
+}
+
+table,
+tr,
+th,
+td {
+	border-collapse: collapse;
+	padding: 2%;
+}
+
+th,
+td {
+	border: "1px solid #7188bb";
+}
+
+td {
+	text-align: center;
+}
+
+tr:nth-child(odd) {
+	background-color: #d3e788;
+}
+
+caption {
+	font-size: 2em;
+	padding: 2%;
+	margin-top: 2%;
+}
+
+/* Style rule for mobile */
+table {
+	border: 1px solid #373684;
+	border-collapse: collapse;
+	margin: 0 auto;
+	width: 100%;
+}
+
+caption {
+	font-size: 1.5em;
+	font-weight: bold;
+	padding: 1%;
+}
+
+th,
+td {
+	border: 1px solid #373684;
+	padding: 2%;
+}
+
+th {
+	background-color: #373684;
+	color: #fff;
+	font-size: 1.15em;
+}
+
+tr:nth-child(odd) {
+	background-color: #b7b7e1;
+}
+
+/* Style rule for the container */
+#container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+/* Style for the footer element */
+footer {
+	font-size: .70em;
+	text-align: center;
+}
+
+/* Desktop Viewport: Style rules for table. */
+.table {
+	width: 70%;
+}
+
+/* Style rules for form elements */
+fieldset,
+input {
+	margin-bottom: 2%;
+}
+
+fieldset legend {
+	font-weight: bold;
+	font-size: 1.25em
+}
+
+label {
+	display: block;
+	padding-top: 3%;
+}
+
+form #submit {
+	margin: 0 auto;
+	border: none;
+	display: block;
+	padding: 3%;
+	background-color: #b7b7e1, ;
+	font-size: 1em;
+}
+
+/*Tablet Viewport: Style rule for form element*/
+form {
+	width: 70%;
+	margin: 0 auto;
+}
+
+/*Desktop Viewport: Style rules for form elements*/
+form {
+	width: auto;
+}
+
+.form-grid {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-gap: 20px;
+}
+
+.btn {
+	grid-column: 1 / span 2;
+}

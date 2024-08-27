@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+
+<!--
+ Student Name: Hinali Tejani - c0939251
+ File Name: index.html
+-->
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="css/styles.css" type="text/css" />
+    <title>Forward Fitness Club: Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Francois+One&family=Roboto+Slab&display=swap"
+        rel="stylesheet" />
+    <link rel="shortcut icon" href="img/favicon.ico" />
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png" />
+    <link rel="icon" sizes="192x192" href="img/android-chrome-192.png" />
+</head>
+
+<body>
+    <header id="ffc-logo">
+        <a href="index.html">
+            <img src="./img/forward-fitness-logo.png" alt="Forward Fitness Club Logo" />
+        </a>
+    </header>
+    <!-- Tablet, Desktop Nav -->
+    <nav class="tablet-desktop">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="./pages/about.html">About us</a></li>
+            <li><a href="./pages/classes.html">Classes</a></li>
+            <li><a href="./pages/nutrition.html">Nutrition</a></li>
+            <li><a href="./pages/contact.html">Contanct Us</a></li>
+        </ul>
+    </nav>
+    <!-- Mobile Nav -->
+    <nav class="mobile-nav">
+        <div id="menu-links">
+            <a href="index.html">Home</a>
+            <a href="./pages/about.html">About us</a>
+            <a href="./pages/classes.html">Classes</a>
+            <a href="./pages/nutrition.html">Nutrition</a>
+            <a href="./pages/contact.html">Contanct Us</a>
+        </div>
+        <a class="menu-icon" onclick="hamburger()">
+            <div>&#9776;</div>
+        </a>
+    </nav>
+
+    <!-- Hero image -->
+    <div id="hero">
+        <img src="img/hero-image.jpg" alt="left arm extended holding a weight" />
+    </div>
+
+    <!-- main tag is used to add the main content of the webpage -->
+    <main>
+        <div>
+            <p>Welcome to Forward Fitness Club. Our mission is to help our clients meet their fitness and nutrition
+                goals.</p>
+
+            <p>
+                If you have struggled with getting healthy and need the motivation and resources to make a healthy
+                lifestyle change, contact us today. Our facility includes state-of-the-art equipment, convenient group
+                training classes,
+                and nutrition tips and information to keep you healthy.
+            </p>
+
+            <p>
+                We provide a FREE one-week membership so you can experience the benefits of our equipment and facility.
+                This one-week trial gives you complete access to our equipment, training classes, and nutrition
+                planning. Contact us
+                today to <span class="action"> start your free trial!</span>
+            </p>
+        </div>
+        <div class="grid">
+            <figure class="frame">
+                <a href="pages/classes.html"><img src="img/fitness-group.jpg" alt="group of fitness people" /></a>
+                <figcaption class="pic-text">Group Fitness</figcaption>
+            </figure>
+            <figure class="frame">
+                <a href="pages/nutrition.html"> <img src="img/food-heart.jpg"
+                        alt="healthy food in the shape of a heart" /></a>
+                <figcaption class="pic-text">Meal Plans</figcaption>
+            </figure>
+            <figure class="frame">
+                <a href="pages/contact.html"> <img src="img/personal-trainer.jpg"
+                        alt="personal trainer with a clipboard" /></a>
+                <figcaption class="pic-text">Start Today</figcaption>
+            </figure>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; Copyright 2021. All Rights Reserved.</p>
+        <p><a href="mailto:forwardfitness@club.net">forwardfitness@club.net</a></p>
+    </footer>
+
+    <script src="scripts/script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--
+ Student Name: Hinali Tejani - c0939251
+ File Name: contact.html
+-->
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="../css/styles.css" />
+    <title>Forward Fitness Club: Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Francois+One&family=Roboto+Slab&display=swap"
+        rel="stylesheet" />
+    <link rel="shortcut icon" href="../img/favicon.ico" />
+    <link rel="icon" type="image/png" sizes="32x32" href="../img/favicon-32.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="../img/apple-touch-icon.png" />
+    <link rel="icon" sizes="192x192" href="../img/android-chrome-192.png" />
+</head>
+
+<body>
+    <header id="ffc-logo">
+        <a href="index.html">
+            <img src="../img/forward-fitness-logo.png" alt="Forward Fitness Club Logo" />
+        </a>
+    </header>
+    <!-- Tablet, Desktop Nav -->
+    <nav class="tablet-desktop">
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="about.html">About us</a></li>
+            <li><a href="classes.html">Classes</a></li>
+            <li><a href="nutrition.html">Nutrition</a></li>
+            <li><a href="contact.html">Contanct Us</a></li>
+        </ul>
+    </nav>
+    <!-- Mobile Nav -->
+    <nav class="mobile-nav">
+        <div id="menu-links">
+            <a href="index.html">Home</a>
+            <a href="./pages/about.html">About us</a>
+            <a href="./pages/classes.html">Classes</a>
+            <a href="./pages/nutrition.html">Nutrition</a>
+            <a href="./pages/contact.html">Contanct Us</a>
+        </div>
+        <a class="menu-icon">
+            <div>&#9776;</div>
+        </a>
+    </nav>
+
+    <!-- main tag is used to add the main content of the webpage -->
+    <main>
+        <div id="contact">
+            <h2>Ready to get started? Contact us today.</h2>
+            <h4 class="mobile tel-link"><a href="tel:8145559608"> (814) 555-9608</a></h4>
+            <h4 class="tablet-desktop tel-num">(814) 555-9608</h4>
+            <h4>
+                Email us:
+                <a href="mailto:forwardfitness@club.net" class="contact-email-link">forwardfitness@club.net</a>
+            </h4>
+            <h3 class="offer" onclick="discount()" id="special">View
+                Promo Code</h3>
+            <h4>Visit us at: 1275 Channel Center Street, Boston, MA 02210</h4>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387191.03611610987!2d-74.30933591825608!3d40.69753995532288!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sca!4v1716697447374!5m2!1sen!2sca"
+                width="600" height="450" style="border: 0" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; Copyright 2021. All Rights Reserved.</p>
+        <p><a href="mailto:forwardfitness@club.net">forwardfitness@club.net</a></p>
+    </footer>
+
+    <script src="scripts/script.js"></script>
+
+</body>
+
+</html>
