@@ -1,2 +1,2 @@
-# Frontend--Pillows-Project
-CSD-1103 Frontend development term project
+# Frontend-Web-Development-I
+CSD-1103 Frontend development
